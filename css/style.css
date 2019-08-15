@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #cccccc;
+}
+
+.main-container {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 60px auto 0 auto;
+  width: 600px;
+  height: 346px;
+  background-color: white;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.5);
+}
+
+.col {
+  float: left;
+}
+
+.col-left {
+  height: 100%;
+  width: 40%;
+  background-color: #00a1e8;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.col-right {
+  height: 100%;
+  width: 60%;
+  padding: 30px 32px;
+}
+
+.col-left img {
+  margin-top: 23px;
+}
+
+.col-right h2 {
+  color: #444444;
+  font-size: 27px;
+  text-align: center;
+  width: 85px;
+  margin: 20px auto 0 auto;
+  cursor: default;
+}
+
+h2:hover ~ .border {
+  width: 54px;
+}
+
+.border {
+  transition: 0.3s;
+  margin: 5px auto 0 auto;
+  width: 35px;
+  height: 2px;
+  background-color: #00a1e8;
+}
+
+.content-container {
+  margin: auto;
+  margin-top: 35px;
+  width: 85%;
+}
+
+.input {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #aaaaaa;
+  width: 100%;
+  height: 35px;
+  padding: 0 5px;
+  transition: 0.2s;
+}
+
+.password {
+  margin-top: 20px;
+}
+
+.bt {
+  width: 100%;
+  height: 38px;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+}
+
+.login {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  color: white;
+  background-color: #00a1e8;
+  margin-top: 35px;
+  transition: 0.3s;
+}
+
+.login:hover {
+  background-color: #0078ac;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.color-chooser {
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 600px;
+  height: 180px;
+  background-color: white;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.5);
+  padding: 30px 30px;
+}
+
+.table-color {
+  margin: 26px auto;
+  width: 100%;
+}
+
+.color {
+  cursor: pointer;
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  line-height: 65px;
+}
+
+.red {
+  background-color: #d50000;
+}
+
+.blue {
+  background-color: #00a1e8;
+}
+
+.green {
+  background-color: #64dd17;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.orange {
+  background-color: #ff3d00;
+}
